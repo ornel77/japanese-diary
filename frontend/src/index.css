@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  /* Fonds */
+  --color-background: #fff7f1;
+  --color-surface: #fffcfa;
+  --color-border: #ebddd8;
+
+  /* Texte */
+  --color-text: #26364a;
+  --color-text-muted: #68788d;
+
+  /* Identité japonaise */
+  --color-primary: #c83e4d;
+  --color-primary-dark: #922f38;
+  --color-sakura: #f4a6b2;
+  --color-sakura-light: #f9d8d5;
+
+  /* Feedback pédagogique */
+  --color-correction-bg: #ddefe5;
+  --color-correction-text: #287653;
+  --color-grammar-bg: #eae2f7;
+  --color-grammar-accent: #7955a6;
+  --color-comment-bg: #fbe4d8;
+  --color-tip-bg: #f8edc9;
+}
